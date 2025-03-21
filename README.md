@@ -35,48 +35,24 @@ Importe o arquivo SQL com as tabelas e dados fictícios.
 sql
 Copiar
 source caminho/para/o/arquivo.sql;
+
 3. Execute os comandos SQL para manipulação de dados:
 
-Insira, altere ou exclua registros nas tabelas de usuarios, artistas, albuns, musicas e playlists.
-📈 Exemplos de Comandos SQL
-Criar Tabela de Usuários:
+4. Insira, altere ou exclua registros nas tabelas de usuarios, artistas, albuns, musicas e playlists.
 
-sql
-Copiar
-CREATE TABLE usuarios (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100) UNIQUE NOT NULL,
-    senha VARCHAR(255) NOT NULL
-);
-Inserir Dados:
-
-sql
-Copiar
-INSERT INTO usuarios (nome, email, senha) VALUES ('Carlos Silva', 'carlos@email.com', 'senha123');
-Atualizar Dados:
-
-sql
-Copiar
-UPDATE usuarios SET senha = 'nova_senha123' WHERE id = 1;
-Excluir Dados:
-
-sql
-Copiar
-DELETE FROM usuarios WHERE id = 1;
-📚 O que você aprenderá
+## 📚 O que você aprenderá
 Como modelar um banco de dados para uma plataforma de streaming.
 Como utilizar SQL para manipulação de dados, incluindo inserções, atualizações e exclusões.
 Como usar relações entre tabelas para simular um sistema de recomendação de músicas.
 Práticas de normalização de dados e otimização de consultas em bancos relacionais.
-🚧 Roadmap
+## 🚧 Roadmap
  Criar estrutura inicial do banco de dados.
  Inserir dados fictícios nas tabelas.
  Implementar funções de busca e recomendação de músicas.
  Adicionar mais funcionalidades, como gerenciamento de playlists personalizadas.
-👥 Contribuições
+## 👥 Contribuições
 Contribuições são bem-vindas! Se você tiver ideias para melhorar este projeto ou encontrar algum erro, fique à vontade para criar uma issue ou enviar um pull request.
 
-🔗 Links Úteis
-Documentação do MySQL
-SQL Tutorial
+## 🔗 Links Úteis
+https://dev.mysql.com/doc/
+
